@@ -1,7 +1,7 @@
 {
   "name": "js-library",
   "version": "1.0.0",
-  "description": "Library of common JavaScript functions ## Description",
+  "description": "Library of common JavaScript functions",
   "main": "index.js",
   "scripts": {
     "test": "./node_modules/mocha/bin/mocha",

@@ -5,11 +5,11 @@ import size from '../functions/size.js'
 
 describe('size', () => {
   it('counts the number of elements in an array', () => {
-    expect( size([1,2,3] )).to.equal(3)
+    expect( size( [1,2,3] )).to.equal(3)
   })
 
   it('counts the number of elements in an object', () => {
-    expect( size({a:1, b: 2, c: 3} )).to.equal(3)
+    expect( size( {a:1, b: 2, c: 3} )).to.equal(3)
   })
 
   it('counts the number of characters in a string', () => {

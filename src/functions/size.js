@@ -1,10 +1,10 @@
 const size = input => {
-  if (input instanceof String) {
+  if (typeof input === 'string') {
     return input.length
   }
 
   if (input instanceof Object) {
-    return input.length
+    return Object.keys(input).length
   }
 
   if (Array.isArray(input)) {

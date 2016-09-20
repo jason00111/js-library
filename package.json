@@ -1,0 +1,27 @@
+{
+  "name": "js-library",
+  "version": "1.0.0",
+  "description": "Library of common JavaScript functions ## Description",
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/mocha/bin/mocha",
+    "buildwatch": "babel src -d dist -w --copy-files",
+    "spcl": "rm -rf node_modules && rm -rf dist && npm install && npm run buildwatch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jason00111/js-library.git"
+  },
+  "author": "Lisa, Jason, Yaseen, Nico",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jason00111/js-library/issues"
+  },
+  "homepage": "https://github.com/jason00111/js-library#readme",
+  "devDependencies": {
+    "babel-cli": "^6.14.0",
+    "babel-preset-es2015": "^6.14.0",
+    "chai": "^3.5.0",
+    "mocha": "^3.0.2"
+  }
+}

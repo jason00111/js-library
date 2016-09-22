@@ -1,7 +1,7 @@
 const chai = require('chai')
-const head = chai.expect
+const expect = chai.expect
 
-import head from '..functions/head.js'
+import head from '../functions/head.js'
 
 describe('head', () => {
   it('finds the first element of an array', () => {

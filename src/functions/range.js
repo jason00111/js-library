@@ -1,13 +1,3 @@
-//helper function
-const compare = (step, x, end) => {
-  if (step > 0) {
-    return x < end
-  } else {
-    return x > end
-  }
-}
-
-
 const range = (...args) => {
   let start, end, step
   if(args.length === 1) {
@@ -38,6 +28,14 @@ const range = (...args) => {
   }
 
   return result
+}
+
+const compare = (step, x, end) => {
+  if (step > 0) {
+    return x < end
+  } else {
+    return x > end
+  }
 }
 
 export default range

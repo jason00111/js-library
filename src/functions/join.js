@@ -3,11 +3,10 @@ const join = (input, separator = ',') => {
     return ''
   if (typeof input === 'string')
     input = input.split('')
-  let result = ''
-  input.forEach( ele => {
-    result += ele + separator
-  })
-  return result.slice(0, (result.length - 1))
+
+  return input.reduce( (memo, current) => {
+    return memo + current + separator
+  }, '' ).slice(0, -1)
 }
 
 export default join

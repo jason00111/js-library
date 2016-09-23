@@ -10,11 +10,7 @@ const random = (a, b) => {
   a = Math.ceil(a)
   b = Math.floor(b)
 
-  let c = Math.random()
-  c = c * (b - a)
-  c = c + a
-  c = Math.floor(c)
-  return c
+  return Math.floor(Math.random() * (b - a) + a)
 }
 
 export default random

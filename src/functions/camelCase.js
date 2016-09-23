@@ -3,9 +3,10 @@ const camelCase = string => {
     return undefined
   }
 
-  let result = ''
   let array = string.split(' ')
 
+  let result = ''
+  
   result += array[0].toLowerCase()
 
   array.shift()

@@ -3,7 +3,7 @@ const expect = chai.expect
 
 import parseInt from '../functions/parseInt.js'
 
-describe('pasreInt', () => {
+describe('parseInt', () => {
   it('if the first argument is a string then the function returns an integer represting the number in the string', () => {
     expect( parseInt('105') ).to.equal(105)
   })

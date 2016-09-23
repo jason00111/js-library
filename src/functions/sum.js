@@ -1,12 +1,14 @@
-const sum = array => {
-  if ((!Array.isArray(array)) && typeof array !== 'string') {
+const sum = input => {
+  if(typeof input === 'string') 
+    return input
+
+  if(!Array.isArray(input)) {
     return 0
   }
-  let total = 0
-  array.forEach(element => {
-    total += element
-  })
-  return total
+
+  return input.reduce( (initial, current) => 
+    initial + current
+  , 0)
 }
 
 export default sum

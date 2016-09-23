@@ -1,4 +1,4 @@
-const capitalize = (string) => {
+const capitalize = string => {
   if (typeof string !== 'string') {
     return undefined
   }

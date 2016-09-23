@@ -8,13 +8,8 @@ const last = input => {
   if (input === []) {
     return undefined
   }
-  for (let i = 0; i < input.length; i++) {
-    if (i < (input.length-1)) {}
-    else {
-      return input[i]
-    }
-  }
-  // return input.slice(-1)
+  
+  return input[input.length-1]
 }
 
 export default last

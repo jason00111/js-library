@@ -1,9 +1,8 @@
-const round = ( number, precison = 0 ) => {
-  if(typeof number !== 'number' || typeof precison !== 'number') {
+const round = ( number, precision = 0 ) => {
+  if(typeof number !== 'number' || typeof precision !== 'number') {
     return NaN
   }
-  return Math.round(number * Math.pow(10,precison)) / Math.pow(10,precison)
+  return Math.round(number * Math.pow(10,precision)) / Math.pow(10,precision)
 }
-
 
 export default round

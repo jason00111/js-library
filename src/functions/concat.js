@@ -1,4 +1,3 @@
-
 const concat = (array, ...values) => {
   let result = []
   Array.isArray(array) ? result = array : result.push(array)

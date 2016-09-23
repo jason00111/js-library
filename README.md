@@ -4,6 +4,8 @@ Library of common JavaScript functions
 
 Create a library of commonly used JavaScript/JQuery/Lodash/Underscore methods with documentation and commenting using ES2015. Publish the code as a package to NPM.
 
+Link to NPM package(href=https://www.npmjs.com/package/js-library)
+
 ## Context
 
 This goal is important for:
@@ -21,8 +23,8 @@ The questions that this project will raise are:
 
 ### Required
 
-- [ ] 20 javascript methods to rewrite in ES2015.
-- [ ] Includes a README that describes each method and provides an example of use. 
-- [ ] Package is published with NPM.
-- [ ] Includes tests for all methods described.
-- [ ] The artifact produced is properly licensed, preferably with the [MIT license][mit-license].
+- [X] 20 javascript methods to rewrite in ES2015.
+- [X] Includes a README that describes each method and provides an example of use. 
+- [X] Package is published with NPM.
+- [X] Includes tests for all methods described.
+- [X] The artifact produced is properly licensed, preferably with the [MIT license][mit-license].

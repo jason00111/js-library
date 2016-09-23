@@ -4,7 +4,7 @@ Library of common JavaScript functions
 
 Create a library of commonly used JavaScript/JQuery/Lodash/Underscore methods with documentation and commenting using ES2015. Publish the code as a package to NPM.
 
-Link to NPM package(href=https://www.npmjs.com/package/js-library)
+Link to NPM package(https://www.npmjs.com/package/js-library)
 
 ## Context
 
